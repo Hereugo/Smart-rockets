@@ -9,7 +9,7 @@ var objs
 var target
 
 function setup() {
-	createCanvas(W , H)
+	createCanvas(W , H).center();
 	population = new Population()
 	objs = new Boxes()
 	target = new Target()
